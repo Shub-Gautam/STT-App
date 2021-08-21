@@ -1,0 +1,86 @@
+:root {
+  font-family: system-ui;
+  --mainbgcolor: #eeeeee;
+  --headerbarcolor: #c7c7c7;
+}
+
+.menuBar {
+  align-items: center;
+  height: 50px;
+  width: auto;
+  font-family: system-ui;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.menubar {
+  display: flex;
+}
+
+.title {
+  font-size: x-large;
+  margin-left: 20px;
+}
+.about {
+  margin-right: 20px;
+  color: rgb(36, 35, 35);
+  font-size: medium;
+  margin-left: auto;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.left {
+  margin: 20px;
+  width: 60%;
+  height: 500px;
+}
+.form-controll {
+}
+/* .right {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 40%;
+  height: 500px;
+  border: 1px solid;
+} */
+.right {
+  height: 500px;
+  width: 40%;
+}
+.toast {
+  position: absolute;
+  bottom: 10px;
+  left: 75%;
+}
+/* .content {
+  border: 1px solid black;
+  padding-top: 30%;
+  width: 100px;
+  height: 100px;
+  align-self: center;
+} */
+.buttongrp {
+  padding-top: 30%;
+}
+.notestitle {
+  background: var(--headerbarcolor);
+  align-content: center;
+  align-items: center;
+  height: 50px;
+  width: auto;
+}
+.Notestart {
+  margin-top: 10px;
+  margin-left: 45%;
+}
+.textbox {
+  width: auto;
+  border-radius: 7px;
+}
