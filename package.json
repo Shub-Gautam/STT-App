@@ -1,0 +1,12 @@
+{
+  "name": "note-taking-app",
+  "version": "1.0.0",
+  "description": "Speech to text Note taking App",
+  "main": "server.js",
+  "repository": "https://github.com/Shub-Gautam/STT-App.git",
+  "author": "Shubham Gautam <72097846+Shub-Gautam@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

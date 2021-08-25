@@ -6,10 +6,18 @@ try {
   console.error(e);
 }
 
-var toast = $("#livetoast");
+// var option = {
+//   animation: true,
+//   delay: 2000,
+// };
 
-var toastLiveExample = document.getElementById("liveToast");
-var toast1 = new bootstrap.Toast(toastLiveExample);
+// var toast = $("#livetoast");
+// var toast1 = new bootstrap.Toast(toast, option);
+
+// var toastElList = [].slice.call(document.querySelectorAll(".toast"));
+// var toastList = toastElList.map(function (toastEl) {
+//   return new bootstrap.Toast(toastEl, option);
+// });
 
 var noteTextarea = $("#floatingTextarea2");
 var instructions = $("#recording-instructions");
@@ -113,7 +121,7 @@ $("#save-note-btn").on("click", function (e) {
     noteTextarea.val("");
     console.log("Note saved successfully.");
 
-    toast1.show();
+    // toast1.show();
   }
 });
 
